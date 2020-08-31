@@ -1,0 +1,72 @@
+# Task - 一盒糖
+
+# App价格版本监控
+# 需要填appid
+cron "0 0 * * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js,tag=App监控
+
+# 彩云天气
+cron "0 0-21/3 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
+
+# > 生日倒计时
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js, tag=生日倒计时
+
+# > 一言
+cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,tag=一言+历史上的今天
+
+# > 机场流量
+cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js,tag=机场流量
+
+# > 机场签到
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js
+
+# > 机场签到Cookie
+cron "5 0 * * *" tag=机场签到Cookie版, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+
+# > 京东
+cron "10 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,tag=京东
+
+# > 爱奇艺
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+# > 快手极速版
+#APP登陆账号后，点击’钱包‘
+cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,tag=快手极速版
+
+# bilibili
+#打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
+cron "20 1 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,tag=哔哩哔哩
+#如需银瓜子转硬币，取消下方注释
+cron "30 1 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,tag=哔哩哔哩
+
+#  人人视频
+#打开 APP, 访问下`个人中心`
+cron "50 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,tag=人人视频
+
+# 字幕组
+#网页:打开浏览器访问: http://www.rrys2019.com, App: 打开 APP 即可
+cron "0 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,tag=字幕组
+
+# 网易云音乐
+#浏览器访问并登录: https://music.163.com/m/login
+cron "10 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,tag=网易云音乐
+
+# 百度贴吧
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
+
+# 吾爱签到
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+
+# WPS
+# 打开 APP 我 > 签到 (右上角, 不用手动签到)
+# 打开 `我的WPS会员` 小程序 (手动签到)
+cron "30 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,tag=WPS
+
+# > qq会员成长值签到
+# 手机qq进入左侧会员，滑动即可
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js, tag=qq会员成长值
+
+# > 腾讯新闻
+#1.打开腾讯新闻app，阅读一篇文章，倒计时结束后即可获取Cookie
+#2.现阶段每日共9个阶梯红包，具体阅读篇数视腾讯情况而变动
+#3.脚本运行一次阅读一篇文章，请不要连续运行，防止封号，可设置每几分钟运行一次
+cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,tag=腾讯新闻
