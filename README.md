@@ -5,11 +5,11 @@
 
 ### Loon脚本订阅配置：
 
-* [Script](https://raw.githubusercontent.com/1653379593/Loon/master/Script) 脚本订阅
+* [Script](https://raw.githubusercontent.com/1653379593/loon/master/Script) 脚本订阅
 
-* [Cookie](https://raw.githubusercontent.com/1653379593/Loon/master/Cookie)获取Cookie订阅
+* [Cookie](https://raw.githubusercontent.com/1653379593/loon/master/Cookie)获取Cookie订阅
 
-* [Task](https://raw.githubusercontent.com/1653379593/Loon/master/Task) 定时任务订阅
+* [Task](https://raw.githubusercontent.com/1653379593/loon/master/Task) 定时任务订阅
 
 
 ## 免责声明：
